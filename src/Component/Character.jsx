@@ -9,7 +9,7 @@ const Imagestyle = styled('img')({
 
 const Container = styled(Card)`
 width: 200px;
-margin:10px;
+margin:20px;
 position:relative;
 `;
 

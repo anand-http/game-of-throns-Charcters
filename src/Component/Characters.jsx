@@ -5,8 +5,8 @@ import { data } from '../Constants/data';
 
 const Characters = () => {
     return (
-        <Box style={{margin: '10px 10px'}}>
-            <Grid container>
+        <Box >
+            <Grid container style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                 {
                     data.characters.map(value => (
                         <Grid item>
